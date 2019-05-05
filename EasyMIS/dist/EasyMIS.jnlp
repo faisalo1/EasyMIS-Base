@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EasyMIS.jnlp">
+  <information>
+    <title>EasyMIS</title>
+    <vendor>faisal</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EasyMIS.jar" size="148333" download="eager" />
+    <jar href="lib\controlsfx-8.40.15.jar" size="1402490" download="eager" />
+    <jar href="lib\fontawesomefx-commons-8.13.jar" size="20607" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-1.jar" size="135304" download="eager" />
+    <jar href="lib\joda-time-2.9.1.jar" size="625986" download="eager" />
+    <jar href="lib\recurrence-8.4.2.jar" size="159924" download="eager" />
+    <jar href="lib\view-8.5.0.jar" size="759043" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EasyMIS" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="easymis.EasyMIS"  name="EasyMIS" />
+  <update check="always"/>
+</jnlp>
